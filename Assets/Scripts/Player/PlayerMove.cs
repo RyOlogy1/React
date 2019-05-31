@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -39,9 +41,25 @@ public class PlayerMove : MonoBehaviour
     {
         rb.angularVelocity = 0;
         SetPlayerVel();
+        CheckForRestart();
+        CheckForQuit();
     }
 
+    private void CheckForRestart()
+    {
+        if (Input.GetKeyDown("r"))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 
+    private void CheckForQuit()
+    {
+        if (Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
+    }
 
     void SetPlayerVel()
     {
