@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Items
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8579f97cb1ac9c34699ff6a838cab779, type: 3}
+    totalSpriteSurfaceArea: 38144
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7b9790c15c778014493282153cc3443d, type: 3}
+  - {fileID: 21300000, guid: 74ff08c3f059da24487badce0b45ed84, type: 3}
+  - {fileID: 21300000, guid: 7444b335ca197ec428c4f0f43d186e9b, type: 3}
+  - {fileID: 21300000, guid: 9275004668e02fc40bfa57cb1e24a063, type: 3}
+  - {fileID: 21300000, guid: 65c6c0c69cc29de44a0e2436fa4409af, type: 3}
+  - {fileID: 21300000, guid: 5a3c340752598474881ceaa307e43784, type: 3}
+  - {fileID: 21300000, guid: 3f6e6c5700f2eb443a1737b88cb6be5d, type: 3}
+  - {fileID: 21300000, guid: 6f6e3967fc2e3dc478ca8f78a56e4330, type: 3}
+  - {fileID: 21300000, guid: d7e3c6f7be435b640a9fa1d57c41dab0, type: 3}
+  - {fileID: 21300000, guid: 26f3f62a0a04ed841ae2340951b3abd3, type: 3}
+  - {fileID: 21300000, guid: 0cbea5da8d976a549979cf1a2fa4cea7, type: 3}
+  - {fileID: 21300000, guid: 6f59e1fa1a73edf42b5795f873d7c600, type: 3}
+  - {fileID: 21300000, guid: 849c118d7e708e146a134d66fc81c441, type: 3}
+  - {fileID: 21300000, guid: 6732a98d0f67d2b4280bfc17e9c311c2, type: 3}
+  - {fileID: 21300000, guid: 16e9515e9250a3d4d9cbd09fe394a35e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - RumPuddle
+  - Matchbox
+  - Rubble
+  - Clothes
+  - Animated_Torch
+  - FireExtinguisher
+  - Putty
+  - Hairspray
+  - PaperPlane
+  - AlarmClock
+  - Door
+  - GlueJar
+  - Water Bottle
+  - Beer
+  - BowlingBall
+  m_Tag: Items
+  m_IsVariant: 0
